@@ -1,25 +1,21 @@
 // ==UserScript==
-// @namespace    https://tampermonkey.myso.kr/
 // @name         네이버 검색결과 지수 분석
 // @description  네이버 검색결과에서 상대평가 지수를 확인할 수 있습니다.
-// @copyright    2021, myso (https://tampermonkey.myso.kr)
 // @license      Apache-2.0
-// @version      1.0.16
-// @updateURL    https://github.com/myso-kr/kr.myso.tampermonkey/raw/master/service/com.naver.search-rank.analysis.user.js
-// @downloadURL  https://github.com/myso-kr/kr.myso.tampermonkey/raw/master/service/com.naver.search-rank.analysis.user.js
-// @author       Won Choi
+// @version      1.0.0
+// @updateURL    https://github.com/NaebangFamily/searchSupport/raw/master/src/main.js
+// @downloadURL  https://github.com/NaebangFamily/searchSupport/raw/master/src/main.js
 // @connect      naver.com
 // @match        *://search.naver.com/search.naver?*
 // @match        *://m.search.naver.com/search.naver?*
 // @grant        GM_addStyle
 // @grant        GM_xmlhttpRequest
-// @require      https://cdn.jsdelivr.net/npm/kr.myso.tampermonkey@1.0.25/assets/vendor/gm-app.js
-// @require      https://cdn.jsdelivr.net/npm/kr.myso.tampermonkey@1.0.25/assets/vendor/gm-add-style.js
-// @require      https://cdn.jsdelivr.net/npm/kr.myso.tampermonkey@1.0.25/assets/vendor/gm-add-script.js
-// @require      https://cdn.jsdelivr.net/npm/kr.myso.tampermonkey@1.0.25/assets/vendor/gm-xmlhttp-request-async.js
-// @require      https://cdn.jsdelivr.net/npm/kr.myso.tampermonkey@1.0.25/assets/donation.js
-// @require      https://cdn.jsdelivr.net/npm/kr.myso.tampermonkey@1.0.25/assets/lib/naver-search-rx.js
-// @require      https://cdn.jsdelivr.net/npm/kr.myso.tampermonkey@1.0.25/assets/lib/naver-search-nx.js
+// @require      https://cdn.jsdelivr.net/gh/NaebangFamily/searchSupport@master/lib/gm-app.js
+// @require      https://cdn.jsdelivr.net/gh/NaebangFamily/searchSupport@master/lib/gm-add-style.js
+// @require      https://cdn.jsdelivr.net/gh/NaebangFamily/searchSupport@master/lib/gm-add-script.js
+// @require      https://cdn.jsdelivr.net/gh/NaebangFamily/searchSupport@master/lib/gm-xmlhttp-request-async.js
+// @require      https://cdn.jsdelivr.net/gh/NaebangFamily/searchSupport@master/lib/naver-search-rx.js
+// @require      https://cdn.jsdelivr.net/gh/NaebangFamily/searchSupport@master/lib/naver-search-nx.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js
