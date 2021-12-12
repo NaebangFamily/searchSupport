@@ -3,8 +3,8 @@
 // @description  네이버 검색결과에서 상대평가 지수를 확인할 수 있습니다.
 // @license      Apache-2.0
 // @version      1.0.0
-// @updateURL    https://github.com/myso-kr/kr.myso.tampermonkey/raw/master/service/com.naver.search-rank.analysis.user.js
-// @downloadURL  https://github.com/myso-kr/kr.myso.tampermonkey/raw/master/service/com.naver.search-rank.analysis.user.js
+// @updateURL    https://github.com/NaebangFamily/searchSupport/raw/master/src/main.js
+// @downloadURL  https://github.com/NaebangFamily/searchSupport/raw/master/src/main.js
 // @connect      naver.com
 // @match        *://search.naver.com/search.naver?*
 // @match        *://m.search.naver.com/search.naver?*
