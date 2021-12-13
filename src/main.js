@@ -3,6 +3,7 @@
 // @description  네이버 검색결과에서 상대평가 지수를 확인할 수 있습니다.
 // @namespace    http://tampermonkey.net/
 // @license      Apache-2.0
+// @author       NaebangFamily
 // @version      1.0.0
 // @updateURL    https://github.com/NaebangFamily/searchSupport/raw/master/src/main.js
 // @downloadURL  https://github.com/NaebangFamily/searchSupport/raw/master/src/main.js
@@ -22,8 +23,6 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.7.2/bluebird.min.js
 // ==/UserScript==
 
-// ==OpenUserJS==
-// ==/OpenUserJS==
 async function observe(target) {
     const uri = new URL(location.href), query = uri.searchParams.get('query'); 
 
