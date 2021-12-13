@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         네이버 검색결과 지수 분석
 // @description  네이버 검색결과에서 상대평가 지수를 확인할 수 있습니다.
+// @namespace    http://tampermonkey.net/
 // @license      Apache-2.0
 // @version      1.0.0
 // @updateURL    https://github.com/NaebangFamily/searchSupport/raw/master/src/main.js
