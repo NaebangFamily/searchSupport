@@ -57,10 +57,10 @@ async function update(keyword, start = 1) {
 }
 GM_App(async function main() {
     GM_addStyle(`
-    :not([data-cr-area="rvw*o"])[data-cr-rank]::after { display: block; margin: 0px 15px 15px; padding: 0.5rem 1rem; font-size: 14px; color: #000; font-weight: bold;  border-radius: 8px; }
-    :not([data-cr-area="rvw*o"])[data-cr-rank][data-cr-score-a][data-cr-score-b][data-cr-score-c]::after { background-color: #52565e; color: #fff; content: '전문성: ' attr(data-cr-score-a) ' / 신뢰성: ' attr(data-cr-score-b) ' / 관련성: ' attr(data-cr-score-c) }
-    :not([data-cr-area="rvw*o"])[data-cr-rank][data-cr-score-a][data-cr-score-b][data-cr-score-c][data-cr-title-score]::after { content: '전문성: ' attr(data-cr-score-a) ' / 신뢰성: ' attr(data-cr-score-b) ' / 관련성: (알 수 없음)' }
-    :not([data-cr-area="rvw*o"])[data-cr-rank]:not([data-cr-score-a])::after { background-color: #e4002b; color: #fff; content: '오류 : 분석 결과를 알 수 없음.'; }
+    :not([data-cr-area="rvw*x"])[data-cr-rank]::after { display: block; margin: 0px 15px 15px; padding: 0.5rem 1rem; font-size: 14px; color: #000; font-weight: bold;  border-radius: 8px; }
+    :not([data-cr-area="rvw*x"])[data-cr-rank][data-cr-score-a][data-cr-score-b][data-cr-score-c]::after { background-color: #52565e; color: #fff; content: '전문성: ' attr(data-cr-score-a) ' / 신뢰성: ' attr(data-cr-score-b) ' / 관련성: ' attr(data-cr-score-c) }
+    :not([data-cr-area="rvw*x"])[data-cr-rank][data-cr-score-a][data-cr-score-b][data-cr-score-c][data-cr-title-score]::after { content: '전문성: ' attr(data-cr-score-a) ' / 신뢰성: ' attr(data-cr-score-b) ' / 관련성: (알 수 없음)' }
+    :not([data-cr-area="rvw*x"])[data-cr-rank]:not([data-cr-score-a])::after { background-color: #e4002b; color: #fff; content: '오류 : 분석 결과를 알 수 없음.'; }
     `);
     const wrp = document.querySelector('ul.lst_total'); if(wrp) observe(wrp);
 })
